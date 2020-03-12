@@ -1,4 +1,4 @@
-<p style="text-align: center;"> <strong> What is data structure? <br/></strong>
+<p style="text-align: center;"> <strong> <h3> What is data structure? </h3><br/></strong>
 <br/>Definition of Data Structure:<br/>
 <img src="./images/1.png"><br/><br/>
 Abstract Data Type - List
