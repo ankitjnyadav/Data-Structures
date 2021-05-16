@@ -1,4 +1,3 @@
-import collections
 def string_compress(orig):
     count = {}
     for i in orig:
@@ -11,6 +10,7 @@ def string_compress(orig):
     print('')
 
 string_compress('AAB')
+
 
 def compare(s):
     #Run Length Compression - Algo Name
