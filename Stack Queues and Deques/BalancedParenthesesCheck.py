@@ -34,5 +34,23 @@ def balance_check(s):
 
     return len(stack) == 0
 
+def check_balance_other_approach(s):
+    opening = ['(','{','[']
+    closing = [')','}',']']
+    stack = []
+    for i in s:
+        if i in opening:
+            stack.append(i)
+        else:
+            position=closing.index(i)
+            if len(stack)>0 and opening[position] == stack[-1]:
+                stack.pop()
+            else:
+                return False
+    if len(stack)==0:
+        return True
+    else:
+        return False
 
 print(balance_check('()(){]}'))
+print(check_balance_other_approach('()(){]}'))
